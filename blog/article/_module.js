@@ -8090,16 +8090,12 @@ function create_fragment$6(ctx) {
 	let hr;
 	let t0;
 	let div0;
-	let span0;
+	let span;
 	let t1;
 	let t2_value = new Date().getFullYear() + "";
 	let t2;
 	let t3;
-	let span1;
-	let a;
 	let t4;
-	let t5;
-	let t6;
 	let ul;
 	let current;
 	let each_value = /*social_links*/ ctx[0];
@@ -8121,15 +8117,11 @@ function create_fragment$6(ctx) {
 			hr = element("hr");
 			t0 = space();
 			div0 = element("div");
-			span0 = element("span");
+			span = element("span");
 			t1 = text("Copyright ");
 			t2 = text(t2_value);
-			t3 = space();
-			span1 = element("span");
-			a = element("a");
-			t4 = text("Primo");
-			t5 = text(" Powered");
-			t6 = space();
+			t3 = text(" dangGuru");
+			t4 = space();
 			ul = element("ul");
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -8149,21 +8141,13 @@ function create_fragment$6(ctx) {
 			t0 = claim_space(div1_nodes);
 			div0 = claim_element(div1_nodes, "DIV", { class: true });
 			var div0_nodes = children(div0);
-			span0 = claim_element(div0_nodes, "SPAN", { class: true });
-			var span0_nodes = children(span0);
-			t1 = claim_text(span0_nodes, "Copyright ");
-			t2 = claim_text(span0_nodes, t2_value);
-			span0_nodes.forEach(detach);
-			t3 = claim_space(div0_nodes);
-			span1 = claim_element(div0_nodes, "SPAN", { class: true });
-			var span1_nodes = children(span1);
-			a = claim_element(span1_nodes, "A", { href: true, class: true });
-			var a_nodes = children(a);
-			t4 = claim_text(a_nodes, "Primo");
-			a_nodes.forEach(detach);
-			t5 = claim_text(span1_nodes, " Powered");
-			span1_nodes.forEach(detach);
-			t6 = claim_space(div0_nodes);
+			span = claim_element(div0_nodes, "SPAN", { class: true });
+			var span_nodes = children(span);
+			t1 = claim_text(span_nodes, "Copyright ");
+			t2 = claim_text(span_nodes, t2_value);
+			t3 = claim_text(span_nodes, " dangGuru");
+			span_nodes.forEach(detach);
+			t4 = claim_space(div0_nodes);
 			ul = claim_element(div0_nodes, "UL", { class: true });
 			var ul_nodes = children(ul);
 
@@ -8180,10 +8164,7 @@ function create_fragment$6(ctx) {
 		},
 		h() {
 			attr(hr, "class", "svelte-1excgdw");
-			attr(span0, "class", "copyright svelte-1excgdw");
-			attr(a, "href", "https://primo.so");
-			attr(a, "class", "svelte-1excgdw");
-			attr(span1, "class", "primo svelte-1excgdw");
+			attr(span, "class", "copyright svelte-1excgdw");
 			attr(ul, "class", "svelte-1excgdw");
 			attr(div0, "class", "footer svelte-1excgdw");
 			attr(div1, "class", "section-container svelte-1excgdw");
@@ -8197,15 +8178,11 @@ function create_fragment$6(ctx) {
 			append_hydration(div1, hr);
 			append_hydration(div1, t0);
 			append_hydration(div1, div0);
-			append_hydration(div0, span0);
-			append_hydration(span0, t1);
-			append_hydration(span0, t2);
-			append_hydration(div0, t3);
-			append_hydration(div0, span1);
-			append_hydration(span1, a);
-			append_hydration(a, t4);
-			append_hydration(span1, t5);
-			append_hydration(div0, t6);
+			append_hydration(div0, span);
+			append_hydration(span, t1);
+			append_hydration(span, t2);
+			append_hydration(span, t3);
+			append_hydration(div0, t4);
 			append_hydration(div0, ul);
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -8359,8 +8336,10 @@ function create_fragment$7(ctx) {
 	component_0 = new Component({
 			props: {
 				favicon: {
-					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"alt": "dang guru",
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"size": 101
 				},
 				image: {
 					"alt": "",
@@ -8376,8 +8355,10 @@ function create_fragment$7(ctx) {
 	component_1 = new Component$2({
 			props: {
 				favicon: {
-					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"alt": "dang guru",
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"size": 101
 				},
 				image: {
 					"alt": "",
@@ -8388,13 +8369,13 @@ function create_fragment$7(ctx) {
 				title: "Article",
 				description: "This is an article discussing the merits of something or another.",
 				logo: {
-					"title": "dang.guru",
 					"image": {
-						"alt": "",
-						"src": "",
-						"url": "",
-						"size": null
-					}
+						"alt": "dangGuru",
+						"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689633465067dangguru99%20(4).webp",
+						"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689633465067dangguru99%20(4).webp",
+						"size": 152
+					},
+					"title": "dangGuru"
 				},
 				site_nav: [
 					{ "link": { "url": "/", "label": "Home" } },
@@ -8411,8 +8392,10 @@ function create_fragment$7(ctx) {
 	component_2 = new Component$3({
 			props: {
 				favicon: {
-					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"alt": "dang guru",
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"size": 101
 				},
 				image: {
 					"alt": "",
@@ -8430,8 +8413,10 @@ function create_fragment$7(ctx) {
 	component_3 = new Component$4({
 			props: {
 				favicon: {
-					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"alt": "dang guru",
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"size": 101
 				},
 				image: {
 					"alt": "",
@@ -8451,8 +8436,10 @@ function create_fragment$7(ctx) {
 	component_4 = new Component$5({
 			props: {
 				favicon: {
-					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"alt": "dang guru",
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"size": 101
 				},
 				image: {
 					"alt": "",
@@ -8464,7 +8451,7 @@ function create_fragment$7(ctx) {
 				description: "This is an article discussing the merits of something or another.",
 				heading: "Sign up to get weekly blog entires about X topic ",
 				form: {
-					"endpoint": "https://formsubmit.co/your@email.com",
+					"endpoint": "https://formsubmit.co/dang@23bay.com",
 					"placeholder": "Email address",
 					"button_label": "Submit",
 					"error_message": "Something went wrong 💀",
@@ -8476,8 +8463,10 @@ function create_fragment$7(ctx) {
 	component_5 = new Component$6({
 			props: {
 				favicon: {
-					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"alt": "dang guru",
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"size": 101
 				},
 				image: {
 					"alt": "",
@@ -8489,32 +8478,17 @@ function create_fragment$7(ctx) {
 				description: "This is an article discussing the merits of something or another.",
 				heading: "",
 				email: "",
-				social_links: [
-					{
-						"icon": "mdi:twitter",
-						"link": {
-							"url": "https://twitter.com",
-							"label": "Twitter",
-							"active": false
-						}
-					},
-					{
-						"icon": "mdi:github",
-						"link": {
-							"url": "https://github.com",
-							"label": "Github",
-							"active": false
-						}
-					}
-				]
+				social_links: []
 			}
 		});
 
 	component_6 = new Component$7({
 			props: {
 				favicon: {
-					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"alt": "dang guru",
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/67df963b-f0f2-442a-a383-1e4afb60e7f0/1689461853184dangguru99%20(26).jpeg",
+					"size": 101
 				},
 				image: {
 					"alt": "",
