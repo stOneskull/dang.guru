@@ -4444,13 +4444,13 @@ function create_fragment$5(ctx) {
 				title: "Blog Posts",
 				description: "These are my blog posts and they are wonderful.",
 				logo: {
+					"title": "dang.guru",
 					"image": {
 						"alt": "",
 						"src": "",
 						"url": "",
 						"size": null
-					},
-					"title": "Name"
+					}
 				},
 				site_nav: [
 					{ "link": { "url": "/", "label": "Home" } },

@@ -8289,13 +8289,13 @@ function create_fragment$6(ctx) {
 				title: "About my Blog",
 				description: "I'm a developer, designer, founder and everything in-between.",
 				logo: {
+					"title": "dang.guru",
 					"image": {
 						"alt": "",
 						"src": "",
 						"url": "",
 						"size": null
-					},
-					"title": "Name"
+					}
 				},
 				site_nav: [
 					{ "link": { "url": "/", "label": "Home" } },

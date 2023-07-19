@@ -8388,13 +8388,13 @@ function create_fragment$7(ctx) {
 				title: "Article",
 				description: "This is an article discussing the merits of something or another.",
 				logo: {
+					"title": "dang.guru",
 					"image": {
 						"alt": "",
 						"src": "",
 						"url": "",
 						"size": null
-					},
-					"title": "Name"
+					}
 				},
 				site_nav: [
 					{ "link": { "url": "/", "label": "Home" } },
